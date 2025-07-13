@@ -51,7 +51,7 @@ export const SendMoney = () => {
                 onClick={async () => {
                   try {
                     const res = await axios.post(
-                      "http://localhost:3000/api/v1/account/transfer",
+                    "https://paytmapp-jora.onrender.com/api/v1/account/transfer",
                       {
                         to: id,
                         amount,
