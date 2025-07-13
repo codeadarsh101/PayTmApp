@@ -1,0 +1,3 @@
+app.use(...) in Express has two main uses
+ 1. Register Middleware like app.use("express.json")
+ 2. Mount Routers at a Path
